@@ -26,4 +26,21 @@ AI는 이 템플릿 환경에서 다음과 같은 리듬으로 작동합니다:
 5. **리팩터 및 갱신 (Phase 5)**: `rtm.md`의 상태(Status)를 갱신합니다.
 
 ## 🏁 시작하기
-프로젝트의 성격에 맞게 `Makefile`이나 `package.json` 등을 추가하고, `.agents/rules/` 내의 파일들을 필요에 따라 조금씩 튜닝하여 사용하세요.
+이 템플릿을 사용하여 새로운 프로젝트를 시작하려면 아래의 명령어를 순서대로 실행하세요.
+
+```bash
+# 1. 템플릿 클론 (원하는 프로젝트 이름 지정)
+git clone https://github.com/mannMae/ai-bdd-tdd-template.git <your-project-name>
+
+# 2. 프로젝트 폴더로 이동
+cd <your-project-name>
+
+# 3. 기존 원격 저장소(템플릿 저장소) 연결 해제
+git remote remove origin
+
+# 4. (선택) 자신의 새로운 원격 저장소 연결 및 푸시
+# git remote add origin <your-new-repo-url>
+# git push -u origin main
+```
+
+이후 프로젝트의 성격에 맞게 `package.json` 등을 추가하고, `.agents/rules/` 내의 파일들을 필요에 따라 조금씩 튜닝하여 사용하세요.
