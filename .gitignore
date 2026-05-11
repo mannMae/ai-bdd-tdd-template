@@ -1,0 +1,27 @@
+# AI 지시어 관련은 제외하지 않음 (자동 로드 보장)
+# AGENTS.md
+# .agents/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Node (프로젝트 확장 시)
+node_modules/
+dist/
+build/
+
+# Python (프로젝트 확장 시)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.pytest_cache/
+coverage/
